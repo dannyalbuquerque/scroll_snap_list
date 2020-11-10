@@ -257,7 +257,7 @@ class ScrollSnapListState extends State<ScrollSnapList> {
 
   @override
   void dispose() {
-    widget.listController.dispose();
+    //widget.listController.dispose();
     super.dispose();
   }
 
